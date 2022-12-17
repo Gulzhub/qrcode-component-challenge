@@ -1,22 +1,18 @@
-html,
-body {
-    height: 100%;
-}
-
 body {
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
+    display: grid;
+    place-items: center;
 }
 
-.container {
-    margin: auto;
+main {
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
     align-items: center;
-    height: 100%;
+    min-height: 100vh;
 }
 
 .content {
@@ -24,7 +20,7 @@ body {
     background-color: white;
     border-radius: 1rem;
     width: 300px;
-    box-shadow: 8px 25px 8px rgba(128, 128, 128, 0.053) ;
+    box-shadow: 9px 25px 9px #01010104 ;
 }
 
 img {
@@ -32,7 +28,8 @@ img {
     width: 100%;
 }
 
-h2 {
+h1 {
+    font-size: 1.5rem;
     color: hsl(218, 44%, 22%);
 }
 
