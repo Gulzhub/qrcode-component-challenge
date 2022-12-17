@@ -31,7 +31,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### What I learned
 
 This is a solution to the beginner level challenge and is fairly easy. However, on attempting this challenge, I got to know how to center a div vertically. Centering a div has been a very ppopular topic in HTML and CSS.
-There are a number of to center vertically but Flexbox makes it very easy(in my opinion). I just used a div inside main and using flex display on the main tag. Flexbox also makes it easy in centering it horizontally.
+There are a number of ways to center vertically but Flexbox makes it very easy(in my opinion). I just used a div inside main and using flex display on the main tag. Flexbox also makes it easy in centering it horizontally.
 
 
 
@@ -44,7 +44,6 @@ There are a number of to center vertically but Flexbox makes it very easy(in my 
 ```
 ```css
 main {
-    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
