@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.content {
+    
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    width: 300px;
+}
+
+img {
+    border-radius: 1rem;
+    width: 100%;
+}
+
+h2 {
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color:  hsl(220, 15%, 55%) ;
+}
+
+.text {
+    padding: 0rem 0.8rem;
+}
+
