@@ -20,7 +20,7 @@ main {
     background-color: white;
     border-radius: 1rem;
     width: 300px;
-    box-shadow: 9px 25px 9px #01010104 ;
+    box-shadow: 10px 25px 50px -25px  hsl(220, 15%, 55%) ;
 }
 
 img {
