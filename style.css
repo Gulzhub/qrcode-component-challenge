@@ -2,8 +2,6 @@ body {
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
-    display: grid;
-    place-items: center;
 }
 
 main {
@@ -15,7 +13,7 @@ main {
     min-height: 100vh;
 }
 
-.content {
+.card {
     padding: 1rem;
     background-color: white;
     border-radius: 1rem;
